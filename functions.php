@@ -62,22 +62,6 @@ function wpb_tag_cloud() {
 
 
 //-------------------------------------------------------------------------------------------------------------------------------------------
-/*[cookie exporation
-    function mind_set_cookie_expire( $time ) {
-
-   
-        return time() + 86400;  // 1 day 
-        // Some other examples:
-        // 1 Minute would be:   
-        // return time() + 60; 
-        // return 0; to set the cookie to expire at the end of the session. 
-      
-      }
-      
-      add_filter( 'post_password_expires', 'mind_set_cookie_expire' );
-*/
-
-//-------------------------------------------------------------------------------------------------------------------------------------------
 // Bei passwortgeschützten Seiten das  „Protected:“, respektive das „Geschützt:“ entfernen
 // "privat" & "geschützt" aus dem Beitragstitel entfernen 
 function kb_remove_pw_pr_info ( $title_with_info ) {
